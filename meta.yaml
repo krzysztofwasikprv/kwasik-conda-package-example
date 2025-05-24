@@ -1,0 +1,19 @@
+package:
+  name: softserve-query
+  version: "1.0.0"
+
+source:
+  url: https://github.com/krzysztofwasikprv/softserve-query/blob/main/softserve-query.cpp
+
+build:
+  number: 0
+  script: bash build.sh
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+
+about:
+  home: https://github.com/krzysztofwasikprv/my-conda-package-example
+  license: MIT
+  summary: "Simple C++ console program for SoftServe values voting"
