@@ -14,6 +14,6 @@ requirements:
     - {{ compiler('cxx') }}
 
 about:
-  home: https://github.com/krzysztofwasikprv/my-conda-package-example
+  home: https://github.com/krzysztofwasikprv/kwasik-conda-package-example
   license: MIT
   summary: "Simple C++ console program for SoftServe values voting"
