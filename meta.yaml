@@ -3,11 +3,10 @@ package:
   version: "1.0.0"
 
 source:
-  url: https://github.com/krzysztofwasikprv/softserve-query/blob/main/softserve-query.cpp
+  url: https://github.com/krzysztofwasikprv/softserve-query/raw/main/softserve-query.cpp
 
 build:
   number: 0
-  script: bash build.sh
 
 requirements:
   build:
